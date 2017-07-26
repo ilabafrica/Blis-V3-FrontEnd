@@ -22,10 +22,10 @@ export const routes: Routes = [
         path: 'dashboard',
         loadChildren: './dashboard/dashboard.module#DashboardModule'
       },
-      {
-        path: 'components',
-        loadChildren: './components/components.module#ComponentsModule'
-      },
+      // {
+      //   path: 'components',
+      //   loadChildren: './components/components.module#ComponentsModule'
+      // },
       {
         path: 'icons',
         loadChildren: './icons/icons.module#IconsModule'

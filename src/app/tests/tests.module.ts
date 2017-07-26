@@ -7,12 +7,15 @@ import { TestService } from './test.service';
 import { TestsComponent } from './tests.component';
 import { TestsRoutingModule } from './tests-routing.module';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   imports: [
     ModalModule.forRoot(),
     TestsRoutingModule,
     HttpModule,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   providers: [TestService],
   declarations: [ TestsComponent ]
